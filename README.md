@@ -8,15 +8,15 @@ The time span that is used for this data set is between April and May 2019.  The
    * Between the months of April and May of this year, ridership has grown 9.314%.
 #### 3. How has the proportion of short-term customers and annual subscribers changed?
 ![Subscribers and Temp](readme_assets/subsVsCustomers.JPG)
-    * In December 2018, there were 33.18 times as many subscribers as short-term customers, in April 2019 there were 10.61 times as many subscribers as short-term customers, and in May 2019 there were 8.58 times as many.  There has been a slowly decreasing gap between the number of short-term customers and the number of subscribers.
+* In December 2018, there were 33.18 times as many subscribers as short-term customers, in April 2019 there were 10.61 times as many subscribers as short-term customers, and in May 2019 there were 8.58 times as many.  There has been a slowly decreasing gap between the number of short-term customers and the number of subscribers.
  4. What are the top and bottom 10 stations in the city for starting and ending a journey?
     1. Top 10 Start Locations 
     ![Top 10 Start Locations](readme_assets/top10start.JPG)
     2. Top 10 End Locations
     ![Top 10 End Locations](readme_assets/top10stop.JPG)
-    3. Bottom 10 Start Locations
+    1. Bottom 10 Start Locations
     ![Bottom 10 Start Locations](readme_assets/bottom10start.JPG)
-    4. Bottom 10 End Locations
+    1. Bottom 10 End Locations
     ![Bottom 10 End Locations](readme_assets/bottom10stop.JPG)
 * Each of these charts were created by using sets.  The most popular start and stop locations are the same (with the ordering being a little different).  This seems to be because these locations are near popular locations that get alot of human traffic, such as the city hall and PATH stations.  The bottom 10 locations are all in more local streets that doesn't have nearly as much human traffic.
 #### 5. What is the gender breakdown of active participants (Male v. Female)?
@@ -29,9 +29,15 @@ The time span that is used for this data set is between April and May 2019.  The
 #### 8. What is the average distance a bike is ridden?
    * The average distance a bike was ridden in the timespan was 0.6168 miles.
 #### 9. Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-![Age and Trip Duration](readme_assets/distance.JPG)
-* There are quite a few bikes in this dataset, so please look at the workbook sheet named "Distance Each Bike Has Gone" for the full list.  Bikes typically need inspection after about 500 miles of useage or so, and while this time frame doesn't indicate any bikes over that milage count, a merging of the entire dataset will be needed to make an accurate analysis.  This amount of data is simply too much for Tableau to handle, but once the milage count is around the 500 mile range for a particular bike id, it should be scheduled for inspection.  The distance each bike has travled was calculating the haversine distance from the ending and start latitude.
-#### 
+![Distance](readme_assets/distance.JPG)
+* There are quite a few bikes in this dataset, so please look at the workbook sheet named "Distance Each Bike Has Gone" for the full list.  Bikes typically need inspection after about 500 miles of useage or so, and while this time frame doesn't indicate any bikes over that milage count, a merging of the entire dataset will be needed to make an accurate analysis.  This amount of data is simply too much for Tableau to handle, but once the milage count is around the 500 mile range for a particular bike id, it should be scheduled for inspection.  The distance each bike has travled was calculating using the haversine distance from the ending and start latitude.
+#### 10. How variable is the utilization by bike ID?
+![Distance](readme_assets/utilization.JPG)
+#### 11. Start and End locations for May 2019
+![Start](readme_assets/startLocations.JPG)
+![End](readme_assets/endLocations.JPG)
+* The start locations provided are only in the New Jersey area while there are many end locations in the New York area.  Many New Jersey residents use this service to travel to the city, but there don't seem to be any start locations in the New York City area.
+
  
 
 
