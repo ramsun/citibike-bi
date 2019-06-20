@@ -29,7 +29,9 @@ The time span that is used for this data set is between April and May 2019.  The
 #### 8. What is the average distance a bike is ridden?
    * The average distance a bike was ridden in the timespan was 0.6168 miles.
 #### 9. Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
+![Age and Trip Duration](readme_assets/distance.JPG)
+* There are quite a few bikes in this dataset, so please look at the workbook sheet named "Distance Each Bike Has Gone" for the full list.  Bikes typically need inspection after about 500 miles of useage or so, and while this time frame doesn't indicate any bikes over that milage count, a merging of the entire dataset will be needed to make an accurate analysis.  This amount of data is simply too much for Tableau to handle, but once the milage count is around the 500 mile range for a particular bike id, it should be scheduled for inspection.  The distance each bike has travled was calculating the haversine distance from the ending and start latitude.
+#### 
  
 
 
